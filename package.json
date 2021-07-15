@@ -8,7 +8,8 @@
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
     "typeorm": "^0.2.34",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.12",
+    "@types/uuid": "^8.3.1",
     "ts-node-dev": "^1.1.8"
   }
 }
